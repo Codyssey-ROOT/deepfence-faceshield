@@ -1,0 +1,27 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Model & Checkpoints
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Generated Images
+results/
+outputs/
+temp/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
